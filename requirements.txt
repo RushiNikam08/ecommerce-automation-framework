@@ -1,0 +1,7 @@
+flask
+pytest
+requests
+playwright
+sqlalchemy
+pandas
+allure-pytest
