@@ -29,9 +29,9 @@ jobs:
         run: |
           playwright install
 
-      - name: Run tests with reports
+      - name: Run tests
         run: |
-          pytest -v --env=qa \
+          pytest -v
             --html=reports/report.html --self-contained-html \
             --alluredir=reports/allure-results
 
