@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="playwright" />
+          <option value="pytest" />
+          <option value="pytest-playwright" />
+          <option value="pyyaml" />
+          <option value="jira" />
+          <option value="pytest-html" />
+          <option value="allure-pytest" />
+          <option value="pytest-xdist" />
+          <option value="axe-playwright-python" />
+          <option value="python-dotenv" />
+          <option value="pydantic" />
+          <option value="requests" />
+          <option value="black" />
+          <option value="flake8" />
+          <option value="mypy" />
+          <option value="isort" />
+          <option value="pytest-cov" />
+          <option value="ruff" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
