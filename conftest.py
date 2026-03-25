@@ -3,11 +3,11 @@ from playwright.sync_api import sync_playwright
 
 @pytest.fixture(scope="session")
 def config():
-    # Provide safe defaults without env files
+    # Provide defaults for CI
     return {
         "browser": "chromium",
         "headless": True,
-        "base_url": "https://example.com"   # <-- adjust to your app URL
+        "base_url": "https://rahulshettyacademy.com/seleniumPractise/#/"
     }
 
 @pytest.fixture(scope="function")
