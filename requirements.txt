@@ -5,3 +5,4 @@ playwright
 sqlalchemy
 pandas
 allure-pytest
+pyyaml
